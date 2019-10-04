@@ -3,14 +3,19 @@ import styled from "styled-components";
 export const Container = styled.div`
   display: flex;
   flex-direction: column;
-  width: 600px;
-  height: 800px;
-  background-color: #3d3d3d;
+  width: 30%;
+  height: 90%;
+  background-color: #ddd;
 `;
 
 export const MessagesContainer = styled.div`
   width: 100%;
   height: 90%;
-  background-color: #fff;
-  color: #000;
+  background-color: #d1d8e0;
+  overflow: scroll;
+  scrollbar-width: none;
+  -ms-overflow-style: none;
+  ::-webkit-scrollbar {
+    width: 0px;
+  }
 `;

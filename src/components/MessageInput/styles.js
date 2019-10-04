@@ -10,10 +10,13 @@ export const Container = styled.div`
 
 export const InputMessage = styled.input`
   width: 70%;
-  height: 50px;
+  height: 40px;
   border: 0px;
   border-radius: 10ex;
-  font-size: 1.5em;
+  padding: 10px;
+  font-size: 1em;
+  -webkit-box-shadow: 2px 2px 9px -2px rgba(0, 0, 0, 0.64);
+  box-shadow: 2px 2px 9px -2px rgba(0, 0, 0, 0.64);
 `;
 
 export const SendButton = styled.button`
@@ -22,10 +25,10 @@ export const SendButton = styled.button`
   position: relative;
   border-radius: 100%;
   border: 0px;
-  background-color: burlywood;
+  background-color: #a55eea;
   color: #fff;
 
   &:active {
-    top: 5px;
+    top: 2px;
   }
 `;

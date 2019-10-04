@@ -14,6 +14,14 @@ export default createGlobalStyle`
     -webkit-font-smoothing: antialiased !important;
     font-family: "Helvetica Neue", monospace, sans-serif;
   }
+  html {
+    scrollbar-width: none; /* For Firefox */
+    -ms-overflow-style: none; /* For Internet Explorer and Edge */
+  }
+
+  html::-webkit-scrollbar {
+      width: 0px; /* For Chrome, Safari, and Opera */
+  }
 `;
 export const MainContainer = styled.div`
   display: flex;
